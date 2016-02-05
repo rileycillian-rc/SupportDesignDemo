@@ -38,7 +38,7 @@ public class ApiDemos extends ListActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        
+        Log.e("TAG","need to change somthing")
         Intent intent = getIntent();
         String path = intent.getStringExtra("com.example.android.apis.Path");
         
