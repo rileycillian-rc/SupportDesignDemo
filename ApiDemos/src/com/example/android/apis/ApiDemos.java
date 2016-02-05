@@ -41,6 +41,7 @@ public class ApiDemos extends ListActivity {
         Log.e("TAG","need to change somthing");
         Log.e("TAG","need to change somthing more times");
         Log.e("TAG","need to change somthing change change change change");
+        Log.e("TAG","need to change somthing change change change again and again");
         
         Intent intent = getIntent();
         String path = intent.getStringExtra("com.example.android.apis.Path");
